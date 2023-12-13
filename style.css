@@ -1,0 +1,189 @@
+*{
+ padding: 0;
+ margin:0;
+ box-sizing: border-box;
+ text-decoration: none;
+ font-family: arial, sans-serif;
+}
+body {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ background-image: url(./assets/bg.jpg);
+ background-size: cover;
+  background-position: center;
+}
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ margin-right: 10px;
+ margin-top: 14px;
+}
+nav a {
+ font-size: 13px;
+ display: inline-block;
+ line-height: 24px;
+ font-weight: 400;
+ color: rgb(0,0,0, 0.87);
+ cursor: pointer;
+ padding: 5px 6px
+}
+
+nav img {
+ width: 34px;
+ padding: 5px;
+ margin: auto 7px;
+ cursor: pointer;
+ fill: #ddd;
+}
+
+nav button {
+ border: 1px solid #4285f4;
+ font-weight: bold;
+ outline: none;
+ background: #4285f4;
+ color: #fff;
+ padding: 7px 15px;
+ border-radius: 4.8%;
+ margin-left: 7px;
+ cursor: pointer;
+}
+.section-1 {
+ flex: 1;
+}
+.section-1 .logo{
+ width:300px;
+margin-left: 800px;
+margin-top: 150px;
+}
+.s-box {
+ width: 650px;
+ margin: 0px auto;
+ position: relative;
+ margin-top: -8px;
+ text-align: center;
+}
+.s-box .s-input {
+ display: block;
+ border: 1px solid #ddd;
+ color: rgba(0,0,0, 0.87);
+ font-size: 16px;
+ font-family: 'Roboto', sans-serif;
+ padding: 15px;
+ padding-left: 45px;
+ border-radius: 25px;
+ width: 100%;
+  box-shadow: 10px 10px 5px grayy;
+ outline: none;
+border: 1px solid #ccc;
+}
+
+.s-box .search-icon {
+ width: 20px;
+ position: absolute;
+ opacity: .6;
+ top: 16px;
+ left: 14px;
+}
+.s-box .vs-icon {
+ position: absolute;
+ width: 35px;
+ top: 10px;
+ right: 50px;
+}
+.s-box .mp-icon {
+ width: 29px;
+ position: absolute;
+ top: 14px;
+ right:10px;
+}
+.shorts{
+width:100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+padding: 0;
+margin: 0;
+}
+
+.shortcut{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ top: 13%;
+ right: 24px;
+ margin-top: 7%;
+ margin-left: 40%;
+ width: 7.5%;
+}	
+
+.shortcut1{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ font-size: 40px;
+ top: 13%;
+ right: 250px;
+ margin-top: 7%;
+ margin-left: 50%;
+ width: 8%;
+	
+}
+.yti{
+  border-radius: 20%;
+  font-weight:00
+ font-size: 13px;
+ font-family: segoe UI,Tahoma,sans-serif;
+
+}
+.plus{
+ background-color: #ffff;
+ border-radius: 49%;
+ width:40px;
+ margin-left:15px;
+
+}
+.add{
+ font-weight: 100;
+ font-size: 13px;
+ width: 100%;
+ padding-top: 20%;
+ color: #fff;
+}
+.g-i{
+ color: #fff;
+ margin-top:1%;
+ font-family: arial,sans-serif;
+}
+.icon{
+height:27px;
+width:27px;
+ margin-top:1.05%;
+}
+.icon1{
+border-radius: 45%;
+ margin-top:0.9%;
+ margin-:1%;
+}
+.customize{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	padding: 8px;
+	width: 9%;
+	margin-left: 90%;
+	margin-bottom:50px;
+	background-color: #ffff;
+	border-radius: 25px;
+}
+.customize input{
+	background: transparent;
+	border: 0;
+font-size: 13px;
+	font-family: segoe UI,Tahoma,sans-serif;
+}
+.pencil
+{
+width:13px;
+}
